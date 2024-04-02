@@ -44,6 +44,10 @@ div.searchbox .search-input:hover,:focus{
     border: 1px solid rebeccapurple;
 }
 div.searchbox span{
-    color: var(--font-color-1);
+    color: var(--bg-color-1);
     cursor: pointer;;
+    border-radius: 50%;
+    background: var(--font-color-1);
+    font-size: 1.3rem;
+    padding: 1px;
 }

@@ -8,12 +8,13 @@
 
 .footer-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     background-color: var(--bg-color-1);
     color: var(--font-color-1);
 
-}.footer-container p span{
+}.footer-container p{
     font-size: 1.2rem;
-    font-weight: bold;
+    margin: 0;
+    padding: 5px 0;
+
 }

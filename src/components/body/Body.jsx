@@ -14,10 +14,6 @@ import Header from '../header/Header';
 const Body = ({ data }) => {
   const { main, weather, wind, name } = data;
 
-  const temperature = main.temp;
-  const humidity = main.humidity;
-  const windSpeed = wind.speed;
-
   const weatherCondition = weather[0].main;
 
   let weatherIcon;
