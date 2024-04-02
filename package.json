@@ -1,5 +1,6 @@
 {
   "name": "my-weather-app",
+  "homepage": "https://bhupati0001.github.io/weather-india/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
