@@ -1,0 +1,19 @@
+
+:root{
+    --bg-color-1: #464E47;
+    --bg-color-2: #272B27;
+    --font-color-1: #F1FFFA;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color-1);
+    color: var(--font-color-1);
+
+}.footer-container p span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
