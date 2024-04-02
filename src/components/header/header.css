@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+
+:root{
+    --bg-color-1: #464E47;
+    --bg-color-2: #272B27;
+    --font-color-1: #F1FFFA;
+}
+
+
+div.header-container{
+    display: flex;
+    flex: 1 1;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background-color: var(--bg-color-1);
+    width: 100%;
+    height: 3rem;
+}
+
+div.logo{
+    font-family: "Workbench", sans-serif;
+    color: var(--font-color-1);
+    font-size: 2rem;
+    cursor: pointer;
+}
+div.searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.searchbox .search-input{
+    border-radius: 10px;
+    height: 1.5rem;
+    padding-left: 12px;
+}
+div.searchbox .search-input::placeholder{
+    text-transform: capitalize;
+
+}
+div.searchbox .search-input:hover,:focus{
+    background-color: #bad3ba;
+    border: 1px solid rebeccapurple;
+}
+div.searchbox span{
+    color: var(--font-color-1);
+    cursor: pointer;;
+}
