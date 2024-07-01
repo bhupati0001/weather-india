@@ -1,8 +1,5 @@
 .App {
   text-align: center;
-}
-
-:root{
-  --bg-color: #464E47;
+  height: 100vh;
 
 }

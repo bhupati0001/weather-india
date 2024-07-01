@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    margin-top: 5rem;
 }
 
 .weather-location{
@@ -35,9 +36,11 @@
 }
 .data-contain{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-around;
-    margin-top: 41px;
+    margin-top: 10%;
+
+
 }
 .element{
     display: flex;
