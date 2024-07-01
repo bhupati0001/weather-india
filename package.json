@@ -1,5 +1,5 @@
 {
-  "name": "my-weather-app",
+  "name": "weather-india",
   "homepage": "https://bhupati0001.github.io/weather-india/",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predepoly":"npm run build",
+    "predepoly": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
